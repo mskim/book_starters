@@ -1,0 +1,38 @@
+require 'rlayout'
+require 'debug'
+
+task :default => [:generate_book]
+
+desc 'generate book pdf'
+task :generate_book do
+  project_path = File.dirname(__FILE__) + "/book"
+  RLayout::Book.new(project_path)
+end
+
+desc 'generate new_essay'
+task :new_essay do
+  project_path = File.dirname(__FILE__) + "/book"
+  RLayout::Essay.new(project_path)
+end
+
+desc 'generate new_poetry_book'
+task :new_essay do
+  project_path = File.dirname(__FILE__) + "/book"
+  if File.exist?(project_path)
+    RLayout::PoetryBook.new(project_path)
+  else
+    RLayout::PoetryBook.create(project_path)
+  end
+end
+
+desc 'pull content from repos'
+task :pull do
+	
+
+end
+
+desc 'push content to repos'
+task :push do
+
+
+end

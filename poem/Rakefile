@@ -1,0 +1,11 @@
+require 'rlayout'
+require 'debug'
+
+task :default => [:generate_poetry]
+
+desc 'generate new_poetry_book'
+task :generate_poetry do
+  project_path = File.dirname(__FILE__) + "/book"
+  RLayout::PoetryBook.new(project_path
+end
+

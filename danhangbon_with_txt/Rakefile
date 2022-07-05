@@ -1,0 +1,10 @@
+require 'rlayout'
+require 'debug'
+
+task :default => [:generate_book]
+
+desc 'generate book pdf'
+task :generate_book do
+  project_path = File.dirname(__FILE__) + "/book"
+  RLayout::Book.new(project_path)
+end

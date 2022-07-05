@@ -1,0 +1,11 @@
+require 'rlayout'
+require 'debug'
+
+task :default => [:generate_essay]
+
+
+desc 'generate new_essay'
+task :generate_essay do
+  project_path = File.dirname(__FILE__) + "/book"
+  RLayout::Essay.new(project_path)
+end
