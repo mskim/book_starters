@@ -1,0 +1,133 @@
+---
+name:
+  font: KoPubDotumPM
+  korean_name: 이름
+  font_size: 11.0
+  text_alignment: left
+  first_line_indent: 11.0
+  space_before: 10.0
+  space_after: 5.0
+en_fullname:
+  font: KoPubDotumPM
+  korean_name: 이름
+  font_size: 11.0
+  text_alignment: left
+  first_line_indent: 11.0
+  space_before: 10.0
+  space_after: 5.0
+cell:
+  font: Shinmoon
+  korean_name: 휴대전화
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+email:
+  font: Shinmoon
+  korean_name: 이메일
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+division:
+  font: Shinmoon
+  korean_name: 이름
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+title:
+  font: Shinmoon
+  korean_name: 직책
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+address:
+  font: Shinmoon
+  korean_name: 주소
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+company:
+  font: Shinmoon
+  korean_name: 회사명
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+company_name:
+  font: KoPubDotumPM
+  korean_name: 회사명
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+en_company_name:
+  font: KoPubDotumPM
+  korean_name: 회사명
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+phone:
+  font: Shinmoon
+  korean_name: 회사명
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+address_1:
+  font: Shinmoon
+  korean_name: 회사명
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+address_2:
+  font: Shinmoon
+  korean_name: 회사명
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+state:
+  font: Shinmoon
+  korean_name: 회사명
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+zip:
+  font: Shinmoon
+  korean_name: 회사명
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+body:
+  font: Shinmoon
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+body_gothic:
+  font: KoPubBatangPM
+  font_size: 8.0
+  text_alignment: left
+  first_line_indent: 8.0
+subtitle:
+  font: KoPubDotumPL
+  font_size: 12.0
+  text_color: 'DarkGray'
+  text_alignment: center
+  text_line_spacing: 5
+  space_after: 30
+copy_1:
+  font: KoPubDotumPM
+  font_size: 12.0
+  markup: "#"
+  text_alignment: left
+  space_before: 1
+copy_2:
+  font: KoPubDotumPL
+  font_size: 8.0
+  markup: "##"
+  text_alignment: middle
+  space_before: 1
+caption:
+  korean_name: 사진설명
+  category:
+  font_family: KoPub돋움체_Pro Light
+  font: KoPubDotumPL
+  font_size: 7.5
+  text_color: CMYK=0,0,0,100
+  text_alignment: justify
+  tracking: -0.5

@@ -1,13 +1,23 @@
-
 require 'rlayout'
 require 'debug'
 
-task :default => [:generate_book]
+task :default => [:generate_pdf]
 
-desc 'generate book pdf'
-task :generate_book do
-  project_path = File.dirname(__FILE__)
-  RLayout::Book.new(project_path)
+
+desc 'create new issue'
+task :new_issue do
+  publication_path = File.dirname(__FILE__)
+  date = Date.today.to_s
+  issue_path  = publication_path + "/#{date}"
+  RLayout::NewsIssuePlan.new(issue_path)
+end
+
+desc 'update issue'
+task :update do
+  publication_path = File.dirname(__FILE__)
+  date = Date.today.to_s
+  issue_path  = publication_path + "/#{date}"
+  RLayout::NewsIssuePlan.update(issue_path)
 end
 
 desc 'generate book pdf'

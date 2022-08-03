@@ -1,0 +1,11 @@
+require 'rlayout'
+require 'debug'
+
+task :default => [:generate_pdf]
+
+desc 'generate pdf'
+task :generate_pdf do
+  project_path = File.expand_path(File.dirname(__FILE__))
+  RLayout::Namecard.new(project_path)
+end
+
