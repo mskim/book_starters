@@ -8,7 +8,7 @@
 1. download docker image from docker hub, using terminal
 
 ```
-docker pull minsookim/rlayout
+docker pull minsookim/:v0.0.9
 
 ```
 
@@ -33,7 +33,7 @@ docker pull minsookim/rlayout
 
 ```
 
-  docker run -it -v $PWD:/usr/src/app minsookim/rlayout bash
+  docker run -it -v $(pwd):/usr/src/app minsookim/rlayout:v0.0.9 bash
 
 ```
 

@@ -1,5 +1,5 @@
 require 'rlayout'
-require 'debug'
+# require 'debug'
 
 task :default => [:generate_pdf]
 

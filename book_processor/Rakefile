@@ -1,0 +1,10 @@
+
+require 'rlayout'
+# require 'pry'
+task :default => [:run_job_processor]
+
+desc 'generate book pdf'
+task :run_job_processor do
+  project_path = File.dirname(__FILE__)
+  RLayout::BookProcessor.new(project_path)
+end
