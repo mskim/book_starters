@@ -23,9 +23,9 @@ docker pull minsookim/rlayout
   - there should be Rakefile, READMD, sample
 
 ```
-  cd paperback_processor
+  cd txt2md_processor
 
-  docker run -it -v $(pwd):/usr/src/app minsookim/rlayout:v0.1.3 bash
+  docker run -it -v $(pwd):/usr/src/app minsookim/rlayout:v0.0.9 bash
 
   rake
 

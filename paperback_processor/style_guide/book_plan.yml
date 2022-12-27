@@ -1,0 +1,26 @@
+---
+# book_cover:
+#   - front_page
+#   - seneca
+#   - back_page
+front_matter:
+  - title_page
+  - copyright
+  - inside_cover
+  - blank
+  - toc:
+    title: 차례
+    page_count: 2
+    toc_type: align_right # left, center, center_with_leader
+body_matter:
+  - chapter_1
+  - chapter_2
+  - chapter_4
+  - chapter_5
+  - chapter_6
+  
+# rear_matter:
+#   - appendix:
+#   - index:
+
+---

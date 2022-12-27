@@ -1,0 +1,10 @@
+
+require 'rlayout'
+# require 'pry'
+task :default => [:docx2md_processor]
+
+desc 'generate book pdf'
+task :docx2md_processor do
+  project_path = File.dirname(__FILE__)
+  RLayout::Docx2mdProcessor.new(project_path)
+end
