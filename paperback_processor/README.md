@@ -25,7 +25,7 @@ docker pull minsookim/rlayout
 ```
   cd paperback_processor
 
-  docker run -it -v $(pwd):/usr/src/app minsookim/rlayout:v0.1.3 bash
+  docker run -it -v $(pwd):/usr/src/app minsookim/rlayout:v0.1.4 bash
 
   rake
 
