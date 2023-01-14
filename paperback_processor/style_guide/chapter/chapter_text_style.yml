@@ -1,0 +1,172 @@
+---
+style_name: chapter_styles
+body:
+  korean_name: 본문명조
+  font: smShinShinMyungjoP-30
+  font_size: 11
+  first_line_indent: 11
+  text_color: CMYK=0,0,0,100
+  text_alignment: justify
+  tracking: -0.4
+  space_width: 4.0
+  scale: 98.0
+  text_line_spacing:
+  space_before_in_lines: 0
+  space_after_in_lines: 0
+  markup: p
+h2:
+  korean_name: 본문중제
+  markup: ##
+  font: KoPubDotumPM
+  font_size: 11
+  text_color: CMYK=0,0,0,100
+  text_alignment: left
+  tracking: -0.2
+  space_width: 3.0
+  scale: 100.0
+  text_line_spacing:
+  space_before_in_lines: 1
+  space_after_in_lines: 0
+h3:
+  korean_name: 본문중제
+  markup: ###
+  font: KoPubDotumPM
+  font_size: 11
+  text_color: CMYK=0,0,0,100
+  text_alignment: left
+  tracking: -0.2
+  space_width: 3.0
+  scale: 100.0
+  text_line_spacing:
+  space_before_in_lines: 1
+  space_after_in_lines:
+quote:
+  korean_name: 발문
+  font: KoPubBatangPM
+  font_size: 12.0
+  text_color: CMYK=0,0,0,100
+  text_alignment: left
+  tracking: -0.5
+  space_width: 6.0
+  scale: 100.0
+  text_line_spacing: 2
+  space_before_in_lines: 1
+  space_after_in_lines: 1
+blockquote:
+  korean_name: 발문
+  font: KoPubBatangPM
+  font_size: 12.0
+  text_color: CMYK=0,0,0,100
+  text_alignment: left
+  tracking: -0.5
+  space_width: 6.0
+  scale: 100.0
+  text_line_spacing: 2
+  space_before_in_lines: 1
+  space_after_in_lines: 1
+caption_title:
+  korean_name: 사진제목
+  font: KoPubDotumPB
+  font_size: 9.0
+  text_color: CMYK=0,0,0,100
+  text_alignment: left
+  tracking: -0.2
+  space_width: 3.0
+  scale: 100.0
+  text_line_spacing:
+caption:
+  korean_name: 사진설명
+  font: KoPubDotumPL
+  font_size: 7.5
+  text_color: CMYK=0,0,0,100
+  text_alignment: justify
+  tracking: -0.5
+  space_width: 3.0
+  scale: 100.0
+source:
+  korean_name: 사진출처
+  font: KoPubDotumPL
+  font_size: 7.5
+  text_color: CMYK=0,0,0,100
+  text_alignment: right
+  tracking: -0.2
+  space_width: 3.0
+  scale: 70.0
+  text_line_spacing:
+  space_before_in_lines:
+  space_after_in_lines:
+author:
+  korean_name: 저자명
+  font: KoPubDotumPL
+  font_size: 7.0
+  text_color: CMYK=0,0,0,100
+  text_alignment: right
+  tracking: 0.0
+  space_width: 2.0
+  scale: 100.0
+  text_line_spacing:
+  space_before_in_lines: 0
+  space_after_in_lines:
+  text_height_in_lines:
+title:
+  korean_name: 제목
+  font: KoPubBatangPB
+  font_size: 24.0
+  text_color: CMYK=0,0,0,100
+  text_alignment: left
+  tracking: -1.0
+  space_width: 10.0
+  scale: 100.0
+  text_line_spacing: 0
+  space_before_in_lines: 0
+  space_after_in_lines: 0
+subtitle:
+  korean_name: 부제목
+  font: KoPubDotumPM
+  font_size: 18.0
+  text_color: CMYK=0,0,0,100
+  text_alignment: center
+  tracking: -1.0
+  space_width: 9.0
+  scale: 100.0
+  text_line_spacing: 9.0
+  space_before_in_lines: 0.5
+  space_after_in_lines: 0.5
+footnote:
+  font: smShinShinMyungjoP-30
+  font_size: 8.0
+  text_alignment: left
+footer_left:
+  korean_name: 하단하시라_좌
+  font: smShinShinMyungjoP-30
+  font_size: 7
+  first_line_indent: 7
+  text_color: CMYK=0,0,0,100
+  text_alignment: left
+header_left:
+  korean_name: 상단하시라_좌
+  font: smShinShinMyungjoP-30
+  font_size: 7
+  first_line_indent: 7
+  text_color: CMYK=0,0,0,100
+  text_alignment: left
+footer_right:
+  korean_name: 하단하시라_우
+  font: smShinShinMyungjoP-30
+  font_size: 7
+  first_line_indent: 7
+  text_color: CMYK=0,0,0,100
+  text_alignment: right
+header_right:
+  korean_name: 상단하시라_우
+  font: smShinShinMyungjoP-30
+  font_size: 7
+  first_line_indent: 7
+  text_color: CMYK=0,0,0,100
+  text_alignment: right
+footnote_type: char
+footnote_char: ●
+footnote_range: page
+# footnote_char: *
+# footnote_type: number
+# footnote_range: chapter

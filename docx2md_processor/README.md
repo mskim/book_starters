@@ -19,13 +19,13 @@ docker pull minsookim/rlayout
 ```
 
 1. cd into one of docker_book_strater_template folder
-  - lets go into danhangbon folder
+  - lets go into docx2md folder
   - there should be Rakefile, READMD, sample
 
 ```
-  cd txt2md_processor
+  cd docx2md_processor
 
-  docker run -it -v $(pwd):/usr/src/app minsookim/rlayout:v0.0.9 bash
+  docker run -it -v $(pwd):/usr/src/app minsookim/rlayout:v0.2.4 bash
 
   rake
 
